@@ -19,12 +19,17 @@ export class LoginPage extends LoginPageObjects{
         await webActions.navigateToURL(`https://hrmsdev1.azurewebsites.net/`);
     }
 
-    async loginToApplication(): Promise<void> {
-        //const decipherPassword = await webActions.decipherPassword();
+    async loginToDotnetEmployee(): Promise<void> {
         await webActions.enterElementText(LoginPageObjects.EMAIL_EDITBOX_ID, testConfig.username);
-        //await webActions.enterElementText(LoginPageObjects.PASSWORD_EDITBOX_ID, decipherPassword);
         await webActions.enterElementText(LoginPageObjects.PASSWORD_EDITBOX_ID,testConfig.password);
         await webActions.clickElement(LoginPageObjects.SIGN_IN_BUTTON_ID);
         await webActions.clickElement(LoginPageObjects.Add_Skill_Cancel_Button);
     }
+    async loginToAdminHod(): Promise<void> {
+        await webActions.enterElementText(LoginPageObjects.EMAIL_EDITBOX_ID, testConfig.username1);
+        await webActions.enterElementText(LoginPageObjects.PASSWORD_EDITBOX_ID,testConfig.password);
+        await webActions.clickElement(LoginPageObjects.SIGN_IN_BUTTON_ID);
+        //await webActions.clickElement(LoginPageObjects.Add_Skill_Cancel_Button);
+}
+
 }

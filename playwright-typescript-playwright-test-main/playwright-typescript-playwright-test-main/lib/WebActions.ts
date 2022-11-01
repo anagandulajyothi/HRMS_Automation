@@ -155,4 +155,9 @@ export class WebActions {
     async expectToBeValue(expectedValue: string, actualValue: string, errorMessage: string): Promise<void> {
         expect(expectedValue.trim(), `${errorMessage}`).toBe(actualValue);
     }
+    async toBeVisible(locator: string, text: string): Promise<void> {
+        const textValue = await this.page.textContent(locator);
+        expect(textValue.trim()).toBe(text)
+    }
+   
 }

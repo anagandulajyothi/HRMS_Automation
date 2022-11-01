@@ -1,13 +1,14 @@
 export const testConfig = {
     dev: ``,
-    //qaApi: `https://reqres.in`,
-    //devApi: ``,
     username: `dotnetemployee@intonenetworks.com`,
     password: `Password1!`,
     waitForElement: 120000,
-    //dbUsername: ``,
-    //dbPassword: ``,
-    //dbServerName: ``,
-    //dbPort: ``,
-    //dbName: ``
+    Department: 'Admin-Hyd(Hyderabad)',
+    Severity: 'High',
+    TicketType: 'AC',
+    TicketSummary: 'The Ticket summary',
+    username1: 'adminhod@intonenetworks.com',
+    Status: 'Resolved',
+    TicketRemarks: 'The Ticket Resolved',
+    updateAssertion: 'Ticket submitted successful.Please check the mail'
 }

@@ -194,3 +194,119 @@
 {"level":"error","message":"=================\n no tests found.\n================="}
 {"level":"info","message":"Test Case Started : Login to HRMS"}
 {"level":"info","message":"Test Case Completed : Login to HRMS Status : passed"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : passed"}
+{"level":"error","message":"File not found: C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : failed"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : failed"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : failed"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : interrupted"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : failed"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : interrupted"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : interrupted"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : failed"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : interrupted"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : failed"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : passed"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : passed"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : passed"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : passed"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : passed"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"error","message":"EBUSY: resource busy or locked, unlink 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\test-results\\.playwright-artifacts-0\\88738f0c16813984002aa1e7e1426150.webm'"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : timedOut"}
+{"level":"error","message":"EPERM: operation not permitted, stat 'C:\\HRMSAUTOMATION\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report\\data\\ced9cb435b3b149588a4093feb2fc4fbb622b9c0.webm'"}
+{"level":"info","message":"Test Case Started : Go to RaiseTicket"}
+{"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : passed"}
