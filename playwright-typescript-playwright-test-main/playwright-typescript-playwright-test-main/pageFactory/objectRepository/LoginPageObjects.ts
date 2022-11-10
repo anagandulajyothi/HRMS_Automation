@@ -1,6 +1,26 @@
+import { Locator, Page } from "@playwright/test";
+
 export class LoginPageObjects {
-    protected static EMAIL_EDITBOX_ID = `#Email`;
-    protected static PASSWORD_EDITBOX_ID = `#Password`;
-    protected static SIGN_IN_BUTTON_ID = `#btnSubmitlogin`;
-    protected static Add_Skill_Cancel_Button ='input:has-text("No")';
+    
+constructor(page:Page){
+        this.page=page
+}
+
+public page:Page
+
+public  login_username(): Locator{
+    return this.page.locator('#Email')
+}
+
+public login_password(): Locator{
+    return this.page.locator(`#Password`)
+}
+  
+public login_btn():Locator{
+    return this.page.locator('#btnSubmitlogin')
+}
+public Addskill_cancel():Locator{
+    return this.page.locator('input:has-text("No")')
+}
+
 }

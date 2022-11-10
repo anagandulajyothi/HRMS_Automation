@@ -1,5 +1,6 @@
 export const testConfig = {
     dev: ``,
+    url:'https://hrmsdev1.azurewebsites.net/',
     username: `dotnetemployee@intonenetworks.com`,
     password: `Password1!`,
     waitForElement: 120000,
