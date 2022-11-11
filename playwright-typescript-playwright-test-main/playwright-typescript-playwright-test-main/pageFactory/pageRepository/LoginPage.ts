@@ -1,35 +1,33 @@
-import { LoginPageObjects } from "@objects/LoginPageObjects";
-import { WebActions } from "@lib/WebActions";
+import {LoginPageObjects} from "@objects/LoginPageObjects"
 import type { Page } from '@playwright/test';
 import {testConfig} from '../../testConfig';
 
-let webActions: WebActions;
+export default class LoginPage  {
 
-export class LoginPage extends LoginPageObjects{
-    readonly page: Page;
-
-    constructor(page: Page) {
-        super();
-        this.page = page;
-        webActions = new WebActions(this.page);
-    }
-
-    async navigateToURL(): Promise<void> {
-        //await webActions.navigateToURL(`/index.php?controller=authentication&back=my-account`);
-        await webActions.navigateToURL(`https://hrmsdev1.azurewebsites.net/`);
-    }
-
-    async loginToDotnetEmployee(): Promise<void> {
-        await webActions.enterElementText(LoginPageObjects.EMAIL_EDITBOX_ID, testConfig.username);
-        await webActions.enterElementText(LoginPageObjects.PASSWORD_EDITBOX_ID,testConfig.password);
-        await webActions.clickElement(LoginPageObjects.SIGN_IN_BUTTON_ID);
-        await webActions.clickElement(LoginPageObjects.Add_Skill_Cancel_Button);
-    }
-    async loginToAdminHod(): Promise<void> {
-        await webActions.enterElementText(LoginPageObjects.EMAIL_EDITBOX_ID, testConfig.username1);
-        await webActions.enterElementText(LoginPageObjects.PASSWORD_EDITBOX_ID,testConfig.password);
-        await webActions.clickElement(LoginPageObjects.SIGN_IN_BUTTON_ID);
-        //await webActions.clickElement(LoginPageObjects.Add_Skill_Cancel_Button);
+constructor(page:Page,loginpageobjects:LoginPageObjects) {
+     this.page=page;
+     this.loginpageobjects=loginpageobjects;
 }
+
+private page:Page;
+private loginpageobjects:LoginPageObjects
+
+async navigationtourl(){
+    await this.page.goto(testConfig.url)
+}
+
+async loginToApplication(username,password) {
+    await this.loginpageobjects.login_username().fill(username)
+    await this.loginpageobjects.login_password().fill(password)
+    await this.loginpageobjects.login_btn().click()
+   
+}
+async cleartext(){
+   
+    await this.loginpageobjects.login_username().fill("")
+    await this.loginpageobjects.login_password().fill("")
+}
+
+
 
 }

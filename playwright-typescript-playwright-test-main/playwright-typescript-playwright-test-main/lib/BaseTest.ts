@@ -1,7 +1,7 @@
-import { test as baseTest } from '@playwright/test';
-import { LoginPage } from '@pages/LoginPage';
+/* import { test as baseTest } from '@playwright/test';
+//import { LoginPage } from '@pages/LoginPage';
 import { raiseTicketPage } from '@pages/RaiseTicketPage';
-import { LogoutPage } from '@pages/LogoutPage';
+//import { LogoutPage } from '@pages/LogoutPage';
 
 const test = baseTest.extend<{
     loginPage: LoginPage;
@@ -20,6 +20,6 @@ const test = baseTest.extend<{
         await use(new LogoutPage(page));
     }
 
-});
+}); */
 
-export default test;
+//export default test;
