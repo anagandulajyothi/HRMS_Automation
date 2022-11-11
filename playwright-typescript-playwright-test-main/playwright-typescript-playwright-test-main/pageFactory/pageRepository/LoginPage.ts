@@ -16,12 +16,18 @@ async navigationtourl(){
     await this.page.goto(testConfig.url)
 }
 
-async loginToApplication() {
-    await this.loginpageobjects.login_username().fill(testConfig.username)
-    await this.loginpageobjects.login_password().fill(testConfig.password)
+async loginToApplication(username,password) {
+    await this.loginpageobjects.login_username().fill(username)
+    await this.loginpageobjects.login_password().fill(password)
     await this.loginpageobjects.login_btn().click()
-    await this.loginpageobjects.Addskill_cancel().click()
+   
 }
-    
+async cleartext(){
+   
+    await this.loginpageobjects.login_username().fill("")
+    await this.loginpageobjects.login_password().fill("")
+}
+
+
 
 }

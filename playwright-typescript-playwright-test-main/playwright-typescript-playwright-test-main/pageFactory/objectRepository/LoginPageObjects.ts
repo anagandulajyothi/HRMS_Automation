@@ -8,7 +8,7 @@ constructor(page:Page){
 
 public page:Page
 
-public  login_username(): Locator{
+public  login_username():Locator{
     return this.page.locator('#Email')
 }
 
