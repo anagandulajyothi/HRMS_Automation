@@ -21,14 +21,6 @@ export class WebActions {
         this.page.goto(url);
     }
 
-    async decipherPassword(): Promise<string> {
-        const key = `SECRET`;
-        //ENCRYPT
-        // const cipher = CryptoJS.AES.encrypt('demouat',key);
-        // console.log(cipher.toString());
-        return CryptoJS.AES.decrypt(testConfig.password, key).toString(CryptoJS.enc.Utf8);
-    }
-
     async waitForPageNavigation(event: string): Promise<void> {
         switch (event.toLowerCase()) {
             case `networkidle`:
