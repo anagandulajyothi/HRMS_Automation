@@ -18,14 +18,13 @@ test('login to hrms',async ({page}) => {
     loginpage= new LoginPage(page,loginpageobjects)
     logoutpage = new LogoutPage(page,logoutpageobjects)
     await loginpage.navigationtourl() 
-    await loginpage.loginToApplication(testConfig.username2,testConfig.password2)  
-    await loginpage.loginToApplication(testConfig.username1,testConfig.password2)
+    await loginpage.loginToApplication(testConfig.validusername,testConfig.Validpassword)
+    await loginpage.AddSkill_cancel()
+    await logoutpage.Logout()  
+    await loginpage.loginToApplication(testConfig.validusername,testConfig.InValidpassword)
     await loginpage.cleartext()
-    await loginpage.loginToApplication(testConfig.username2,testConfig.password1)
+    await loginpage.loginToApplication(testConfig.InValidusername,testConfig.Validpassword)
     await loginpage.cleartext()
-    await loginpage.loginToApplication(testConfig.username1,testConfig.password1)
-     
-
-        
+    await loginpage.loginToApplication(testConfig.InValidusername,testConfig.InValidpassword)     
 });
 })

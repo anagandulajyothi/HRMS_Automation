@@ -1,6 +1,5 @@
-import path from 'path';
-import AdmZip from 'adm-zip';
-
+import * as path from 'path';
+import * as AdmZip from 'adm-zip';
 async function globalTeardown() {
     const reportPath = path.join(__dirname, `html-report`);
     const zip = new AdmZip();
