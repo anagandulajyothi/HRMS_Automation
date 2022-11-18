@@ -5,7 +5,6 @@ export class LogoutPageObjects  {
 constructor(page:Page){
         this.page=page
 }
-
 public page:Page
 public  Profile():Locator{
     return this.page.locator('#divUserName')

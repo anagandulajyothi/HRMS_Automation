@@ -1,28 +1,22 @@
-//import fs from 'fs';
-import * as fs from 'fs';
 
+import * as fs from 'fs';
 import * as CryptoJS from 'crypto-js';
 import type { Page } from '@playwright/test';
 import { BrowserContext, expect } from '@playwright/test';
 import { Workbook } from 'exceljs';
 import { testConfig } from '../testConfig';
-//import path from 'path';
 import * as path from 'path';
 const waitForElement = testConfig.waitForElement;
 
-export class WebActions {
+export class Utils {
     readonly page: Page;
 
     constructor(page: Page) {
         this.page = page;
     }
-
     async navigateToURL(url: string) {
         this.page.goto(url);
     }
-
-  
-
     async waitForPageNavigation(event: string): Promise<void> {
         switch (event.toLowerCase()) {
             case `networkidle`:
@@ -49,31 +43,25 @@ export class WebActions {
     async clickElementJS(locator: string): Promise<void> {
         await this.page.$eval(locator, (element: HTMLElement) => element.click());
     }
-
     async boundingBoxClickElement(locator: string): Promise<void> {
         await this.delay(1000);
         const elementHandle = await this.page.$(locator);
         const box = await elementHandle.boundingBox();
         await this.page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
     }
-
     async enterElementText(locator: string, text: string): Promise<void> {
         await this.page.fill(locator, text);
     }
-
     async dragAndDrop(dragElementLocator: string, dropElementLocator: string): Promise<void> {
         await this.page.dragAndDrop(dragElementLocator, dropElementLocator);
     }
-
     async selectOptionFromDropdown(locator: string, option: string): Promise<void> {
         const selectDropDownLocator = await this.page.$(locator);
         selectDropDownLocator.type(option);
     }
-
     async getTextFromWebElements(locator: string): Promise<string[]> {
         return this.page.$$eval(locator, elements => elements.map(item => item.textContent.trim()));
     }
-
     async downloadFile(locator: string): Promise<string> {
         const [download] = await Promise.all([
             this.page.waitForEvent(`download`),
@@ -86,7 +74,6 @@ export class WebActions {
     async keyPress(locator: string, key: string): Promise<void> {
         this.page.press(locator, key);
     }
-
     async readDataFromExcel(fileName: string, sheetName: string, rowNum: number, cellNum: number): Promise<string> {
         const workbook = new Workbook();
         return workbook.xlsx.readFile(`./Downloads/${fileName}`).then(function () {
@@ -98,20 +85,16 @@ export class WebActions {
     async readValuesFromTextFile(filePath: string): Promise<string> {
         return fs.readFileSync(`${filePath}`, `utf-8`);
     }
-
     async writeDataIntoTextFile(filePath: number | fs.PathLike, data: string | NodeJS.ArrayBufferView): Promise<void> {
         fs.writeFile(filePath, data, (error) => {
             if (error)
                 throw error;
         });
     }
-
     async verifyElementText(locator: string, text: string): Promise<void> {
         const textValue = await this.page.textContent(locator);
         expect(textValue.trim()).toBe(text);
     }
-
-
     async verifyNewWindowUrlAndClick(context: BrowserContext, newWindowLocator: string, urlText: string,clickOnNewWindowLocator:string): Promise<void> {
         const [newPage] = await Promise.all([
             context.waitForEvent('page'),
@@ -153,5 +136,10 @@ export class WebActions {
         const textValue = await this.page.textContent(locator);
         expect(textValue.trim()).toBe(text)
     }
+    async assertsuccessmsg(message){
+        await expect(this.page.locator('#sessionExpired')).toHaveText(message)
+    }
    
 }
+
+

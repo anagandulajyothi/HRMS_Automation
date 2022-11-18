@@ -7,7 +7,7 @@ public page:Page
 constructor(page:Page){
         this.page=page
 }
-public  login_username():Locator{
+public login_username():Locator{
     return this.page.locator('#Email')
 }
 public login_password(): Locator{

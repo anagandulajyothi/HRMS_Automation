@@ -1,5 +1,4 @@
 export const testConfig = {
-    dev: ``,
     url:'https://hrmsdev1.azurewebsites.net/',
     validusername: `dotnetemployee@intonenetworks.com`,
     InValidusername: 'dotemployee@intonenetworks.com',
@@ -12,5 +11,6 @@ export const testConfig = {
     TicketSummary: 'The Ticket summary',
     Status: 'Resolved',
     TicketRemarks: 'The Ticket Resolved',
-    updateAssertion: 'Ticket submitted successful.Please check the mail'
+    updateAssertion: 'Ticket submitted successful.Please check the mail',
+    Invalidmessage: 'Invalid UserName or Password...!'
 }

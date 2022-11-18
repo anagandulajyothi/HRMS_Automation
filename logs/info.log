@@ -329,3 +329,9 @@
 {"level":"info","message":"Test Case Started : login to hrms"}
 {"level":"info","message":"Test Case Completed : login to hrms Status : passed"}
 {"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : login to hrms"}
+{"level":"info","message":"Test Case Completed : login to hrms Status : passed"}
+{"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : login to hrms"}
+{"level":"info","message":"Test Case Completed : login to hrms Status : passed"}
+{"level":"error","message":"AdmZip is not a constructor"}
