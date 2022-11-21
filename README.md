@@ -89,14 +89,12 @@ npm run allureReport
 10. For debugging test cases add debug points, the press CNTRL+SHIFT+P and type "debug:debug npm script", on the edit box select desired script.
 11. Screenshots, Videos and Trace files will be generated in test-results folder.
 12. To change your username go to `testConfig.ts` and provide value against `username`
-13. To change password, go to `lib/WebActions` in `decipherPassword()` uncomment `ENCRYPT` code block and replace `password` with your password, execute the test case, Encrypted password will be printed on your console . Copy Encrypted password in `testConfig.ts` against `password` field. You can comment Encrypt bloack ater this.
-
-14. You can change the Logging Message at Test Case/Test Step Level in CustomReporterConfig.ts file
-15. In `tsconfig.json` file in `paths` section we can re-assign the long path imports like '../../' to a variable which starts with '@' and then we can use it to shorten our import statements in respective file.
+13. You can change the Logging Message at Test Case/Test Step Level in CustomReporterConfig.ts file
+14. In `tsconfig.json` file in `paths` section we can re-assign the long path imports like '../../' to a variable which starts with '@' and then we can use it to shorten our import statements in respective file.
 In the below example wherever '../../pageFactory/pageRepository/' import statement is used we can replace it with '@pages'
 "@pages/*":["pageFactory/pageRepository/*"]
 
-16. Logging is implemented in `CustomReporterConfig.ts` using winston logger. 
+15. Logging is implemented in `CustomReporterConfig.ts` using winston logger. 
 
 First we have to create a logger object using winston.createLogger and then provid the configuration you need.
 First argument is "level" for which i have provided value as "info", in winston logger every logging level is provided with a numeric value, for info the numeric value is 2, so if we provide level as info then all the logs which are equal to or less than info level will be displayed. In our case logs with error(0) and warn(1) wil also be logged. For more info on logging refer below link

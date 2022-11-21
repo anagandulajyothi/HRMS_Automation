@@ -313,3 +313,25 @@
 {"level":"info","message":"Test Case Started : Go to RaiseTicket"}
 {"level":"info","message":"Test Case Completed : Go to RaiseTicket Status : passed"}
 {"level":"error","message":"File not found: C:\\hrms_04\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report"}
+{"level":"info","message":"Test Case Started : login to hrms"}
+{"level":"info","message":"Test Case Completed : login to hrms Status : passed"}
+{"level":"error","message":"File not found: C:\\hrms_11\\HRMS_Automation\\playwright-typescript-playwright-test-main\\playwright-typescript-playwright-test-main\\html-report"}
+{"level":"error","message":"=================\n no tests found.\n================="}
+{"level":"info","message":"Test Case Started : login to hrms"}
+{"level":"info","message":"Test Case Completed : login to hrms Status : failed"}
+{"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : login to hrms"}
+{"level":"info","message":"Test Case Completed : login to hrms Status : passed"}
+{"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : login to hrms"}
+{"level":"info","message":"Test Case Completed : login to hrms Status : failed"}
+{"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : login to hrms"}
+{"level":"info","message":"Test Case Completed : login to hrms Status : passed"}
+{"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : login to hrms"}
+{"level":"info","message":"Test Case Completed : login to hrms Status : passed"}
+{"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : login to hrms"}
+{"level":"info","message":"Test Case Completed : login to hrms Status : passed"}
+{"level":"error","message":"AdmZip is not a constructor"}
