@@ -25,4 +25,12 @@ async loginToHrmsWithInValidCredentials(username,password) {
     await this.loginpageobjects.login_username().fill("")
     await this.loginpageobjects.login_password().fill("")
 }
+async Re_login(username,password) {
+    await this.loginpageobjects.Profile().click()
+    await this.loginpageobjects.Logout().click()
+    await this.loginpageobjects.login_username().fill(username)
+    await this.loginpageobjects.login_password().fill(password)
+    await this.loginpageobjects.login_btn().click()
+
+}
 }

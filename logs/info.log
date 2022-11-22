@@ -335,3 +335,30 @@
 {"level":"info","message":"Test Case Started : login to hrms"}
 {"level":"info","message":"Test Case Completed : login to hrms Status : passed"}
 {"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : login to hrms"}
+{"level":"info","message":"Test Case Completed : login to hrms Status : passed"}
+{"level":"error","message":"AdmZip is not a constructor"}
+{"level":"error","message":"=================\n no tests found.\n================="}
+{"level":"info","message":"Test Case Started : Raise Ticket Cancel"}
+{"level":"info","message":"Test Case Completed : Raise Ticket Cancel Status : passed"}
+{"level":"info","message":"Test Case Started : Raise Ticket Info Pending"}
+{"level":"info","message":"Test Case Completed : Raise Ticket Info Pending Status : passed"}
+{"level":"info","message":"Test Case Started : Raise Ticket Info Provided"}
+{"level":"info","message":"Test Case Completed : Raise Ticket Info Provided Status : passed"}
+{"level":"info","message":"Test Case Started : Raise Ticket Need More Info"}
+{"level":"info","message":"Test Case Completed : Raise Ticket Need More Info Status : passed"}
+{"level":"info","message":"Test Case Started : Raise Ticket On Hold"}
+{"level":"info","message":"Test Case Completed : Raise Ticket On Hold Status : passed"}
+{"level":"info","message":"Test Case Started : Raise Ticket Open"}
+{"level":"info","message":"Test Case Completed : Raise Ticket Open Status : passed"}
+{"level":"info","message":"Test Case Started : Raise Ticket Pending"}
+{"level":"info","message":"Test Case Completed : Raise Ticket Pending Status : passed"}
+{"level":"info","message":"Test Case Started : Raise Ticket Re Open"}
+{"level":"info","message":"Test Case Completed : Raise Ticket Re Open Status : passed"}
+{"level":"info","message":"Test Case Started : Raise Ticket Resolved"}
+{"level":"info","message":"Test Case Completed : Raise Ticket Resolved Status : passed"}
+{"level":"info","message":"Test Case Started : Raise Ticket Send For Approval"}
+{"level":"info","message":"Test Case Completed : Raise Ticket Send For Approval Status : passed"}
+{"level":"info","message":"Test Case Started : Raise Ticket Work-In-Progress"}
+{"level":"info","message":"Test Case Completed : Raise Ticket Work-In-Progress Status : interrupted"}
+{"level":"error","message":"AdmZip is not a constructor"}

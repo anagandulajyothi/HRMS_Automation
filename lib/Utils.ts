@@ -2,8 +2,7 @@
 import * as fs from 'fs';
 import * as CryptoJS from 'crypto-js';
 import type { Page } from '@playwright/test';
-import { BrowserContext, expect } from '@playwright/test';
-import { Workbook } from 'exceljs';
+import { BrowserContext, expect } from '@playwright/test'
 import { testConfig } from '../testConfig';
 import * as path from 'path';
 const waitForElement = testConfig.waitForElement;
@@ -74,13 +73,6 @@ export class Utils {
     async keyPress(locator: string, key: string): Promise<void> {
         this.page.press(locator, key);
     }
-    async readDataFromExcel(fileName: string, sheetName: string, rowNum: number, cellNum: number): Promise<string> {
-        const workbook = new Workbook();
-        return workbook.xlsx.readFile(`./Downloads/${fileName}`).then(function () {
-            const sheet = workbook.getWorksheet(sheetName);
-            return sheet.getRow(rowNum).getCell(cellNum).toString();
-        });
-    }
 
     async readValuesFromTextFile(filePath: string): Promise<string> {
         return fs.readFileSync(`${filePath}`, `utf-8`);
@@ -138,6 +130,9 @@ export class Utils {
     }
     async assertsuccessmsg(message){
         await expect(this.page.locator('#sessionExpired')).toHaveText(message)
+    }
+    async assertsuccessmsgformail(message){
+        await expect(this.page.locator('//div[@class="toast-message"]')).toHaveText(message)
     }
    
 }
