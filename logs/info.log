@@ -362,3 +362,18 @@
 {"level":"info","message":"Test Case Started : Raise Ticket Work-In-Progress"}
 {"level":"info","message":"Test Case Completed : Raise Ticket Work-In-Progress Status : interrupted"}
 {"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : create asset"}
+{"level":"info","message":"Test Case Completed : create asset Status : failed"}
+{"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : create asset"}
+{"level":"info","message":"Test Case Completed : create asset Status : timedOut"}
+{"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : create asset"}
+{"level":"info","message":"Test Case Completed : create asset Status : timedOut"}
+{"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : create asset"}
+{"level":"info","message":"Test Case Completed : create asset Status : failed"}
+{"level":"error","message":"AdmZip is not a constructor"}
+{"level":"info","message":"Test Case Started : create asset"}
+{"level":"info","message":"Test Case Completed : create asset Status : passed"}
+{"level":"error","message":"AdmZip is not a constructor"}

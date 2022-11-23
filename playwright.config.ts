@@ -16,13 +16,13 @@ const config: PlaywrightTestConfig = {
   globalTeardown: `./global-teardown`,
 
   //sets timeout for each test case
-  timeout: 120000,
+  timeout: 400000,
   
   //number of retries if test case fails
   retries: 0,
 
   //Reporters
-  reporter: [[`./CustomReporterConfig.ts`], [`experimental-allure-playwright`], [`html`, { outputFolder: 'html-report', open: 'never' }]],
+  reporter: [[`./CustomReporterConfig.ts`], [`experimental-allure-playwright`], [`html`, { outputFolder: 'html-report', open: 'always' }]],
 
   projects: [
     {

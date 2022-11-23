@@ -134,6 +134,23 @@ export class Utils {
     async assertsuccessmsgformail(message){
         await expect(this.page.locator('//div[@class="toast-message"]')).toHaveText(message)
     }
+    async scrollup(){
+        await this.page.evaluate(() => window.scrollTo(0, document.body.scrollHeight))
+    }
+    async scrolldown(){
+        await this.page.evaluate(() => window.scrollTo(-100, document.body.scrollWidth))
+    }
+    async assertSucessMsg(message){
+        expect(this.page.locator('(//div[@class="alert alert-success display-hide alert-success-popup"])[1]')).toHaveText(message)
+       // expect this.page.locator(('[id="toast-container"]'))toHaveText(message)
+    }
+    async assertapprovalsuccessmsg(message){
+        expect(this.page.locator('//div[@class="toast toast-success"]')).toHaveText(message)
+    }
+
+
+
+
    
 }
 
