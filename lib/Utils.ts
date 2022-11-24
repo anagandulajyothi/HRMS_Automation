@@ -142,7 +142,7 @@ export class Utils {
     }
     async assertSucessMsg(message){
         expect(this.page.locator('(//div[@class="alert alert-success display-hide alert-success-popup"])[1]')).toHaveText(message)
-       // expect this.page.locator(('[id="toast-container"]'))toHaveText(message)
+       
     }
     async assertapprovalsuccessmsg(message){
         expect(this.page.locator('//div[@class="toast toast-success"]')).toHaveText(message)
