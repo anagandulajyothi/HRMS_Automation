@@ -1,3 +1,4 @@
+import { faker } from '@faker-js/faker';
 export const testConfig = {
     url:'https://hrmsdev1.azurewebsites.net/',
     validusername: `dotnetemployee@intonenetworks.com`,
@@ -17,6 +18,21 @@ export const testConfig = {
     techsupporthodusername: 'techsupporthod@intonenetworks.com',
     techsupporthodpassword:'Password1!',
     selectapproval:'Dot Net Hod',
-    toastmessage :'Ticket Submitted Successfully. Please Check The Mail'
+    toastmessage :'Ticket Submitted Successfully. Please Check The Mail',
+    techsupportempusername: `techsupportemp@intonenetworks.com`,
+    password: `Password1!`,
+    techsupportpassword:`Password1!`,
+    subcategory:faker.name.firstName(),
+    Item:faker.name.firstName(),
+    Categoryname:faker.name.firstName(),
+    Categorycode:faker.random.numeric(3),
+    Subcategorycode:faker.random.numeric(3),
+    Specification1:faker.name.firstName(),
+    Specification2:faker.name.firstName(),
+    serial:faker.name.firstName(),
+    updatedtoastmessage:'Data has been Successfully Updated.',
+    Assettoastmessage:'Asset has been created Successfully.',
+    logouttoastmessage:'Logout Success..',
+    approvaltoastmessage:'Successfully Approved',
 
 }
