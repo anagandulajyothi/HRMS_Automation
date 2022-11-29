@@ -11,13 +11,14 @@ test.describe('create asset', async () => {
     let loginpageobjects: LoginPageObjects;
     let loginpage: LoginPage;
     let utils: Utils
+
     test.beforeEach(async ({ page }) => {
-        utils = new Utils(page)
-        loginpageobjects = new LoginPageObjects(page)
-        loginpage = new LoginPage(page, loginpageobjects)
-        assetpageobjects = new AssetPageObjects(page)
-        assetpage = new AssetPage(page, assetpageobjects)
-        loginpage.loginToHrmsWithValidCredentials(testConfig.techsupportempusername, testConfig.password)
+     utils = new Utils(page)
+    loginpageobjects = new LoginPageObjects(page)
+    loginpage = new LoginPage(page, loginpageobjects)
+    assetpageobjects = new AssetPageObjects(page)
+    assetpage = new AssetPage(page, assetpageobjects)
+    loginpage.loginToHrmsWithValidCredentials(testConfig.techsupportempusername, testConfig.password)
     })
     test('create asset', async ({ }) => {
      await assetpage.createcategory(testConfig.Categoryname, testConfig.Categorycode)

@@ -35,5 +35,4 @@ export const testConfig = {
     logouttoastmessage:'Logout Success..',
     approvaltoastmessage:'Successfully Approved',
 
-
 }

@@ -37,6 +37,7 @@ export class AssetPage {
     await this.assetpageobjects.close().click()
     await this.page.waitForTimeout(5000);
   }
+
   async createitem(Categoryname, subcategory, Item, Categorycode, Subcategorycode) {
     await utils.scrollup()
     await this.assetpageobjects.asset().click()
@@ -53,6 +54,7 @@ export class AssetPage {
     await this.assetpageobjects.code().fill(Subcategorycode)
     await this.assetpageobjects.addbutton().click()
   }
+
   async createasset(Categoryname, subcategory, Item, location, Specification1, Specification2, serial) {
     await this.assetpageobjects.close().click()
     await this.assetpageobjects.asset().click()
@@ -79,6 +81,7 @@ export class AssetPage {
     await this.page.waitForTimeout(5000);
     await this.assetpageobjects.closebtn().click()
   }
+
   async approveasset(status, location, categoryname) {
     await this.page.waitForTimeout(2000);
     await this.assetpageobjects.asset().click()
@@ -92,5 +95,4 @@ export class AssetPage {
     await this.page.waitForTimeout(4000);
     await this.assetpageobjects.approvalclose().click()
   }
-
 }
